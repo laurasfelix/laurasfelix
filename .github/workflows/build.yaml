@@ -2,20 +2,25 @@ name: build
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day at midnight UTC
-  workflow_dispatch: # lets you manually run it too
+    - cron: "0 0 * * *"
+  workflow_dispatch: 
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
 
       - name: Run update script
         run: |
@@ -28,3 +33,4 @@ jobs:
           git add README.md
           git commit -m "Auto-update README [bot]" || echo "No changes to commit"
           git push
+
