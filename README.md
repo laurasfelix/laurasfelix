@@ -14,7 +14,7 @@ currently, i’m running women in computing at northwestern, building a test-gen
 - i almost met tom holland but my mom didn't let me because I was in PJs
 - i have a the last of us tattoo
 - my dog is named koda but i've never watched brother bear
-- lines of code: {{ lines_of_code }}
+- lines of code: 295,952
 
 <div align="center"> 
   <p>fans count</p>
