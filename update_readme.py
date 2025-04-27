@@ -41,15 +41,25 @@ def calculate_lines_of_code(repos):
         freq_data = fetch_code_frequency(repo_full_name)
 
         retries = 0
-        while freq_data == [] and retries < 5:
-            print(f"Retrying {repo_full_name} (GitHub is calculating stats)...")
-            time.sleep(2)
+        max_retries = 20  # <-- Allow up to 20 retries (about 5-10 minutes if needed)
+
+        while freq_data == [] and retries < max_retries:
+            print(f"Retrying {repo_full_name} (GitHub still calculating stats)... attempt {retries+1}")
+            time.sleep(15)  # <-- wait 15 seconds between retries to be polite to GitHub API
             freq_data = fetch_code_frequency(repo_full_name)
             retries += 1
 
+        if not freq_data:
+            print(f"⚠️ Skipping {repo_full_name} after {max_retries} retries — GitHub never responded.")
+            continue
+
         for week in freq_data:
-            total += week[1] + week[2]
+            additions = week[1]
+            deletions = abs(week[2])
+            total += additions + deletions
+
     return total
+
 
 def update_readme(net_lines):
     with open("README.md", "r") as file:
