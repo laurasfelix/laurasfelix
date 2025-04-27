@@ -2,7 +2,7 @@
 
 ## i like to build cool stuff
 
-i’m a brazilian studying computer science, design, and русский at northwestern university. despite my silly fun approach to showing off my work, i’m a disciplined and passionate person, who wants to create technology that makes change – or at least that makes people say “woah that’s cool”.
+i’m a brazilian studying computer science, design, and русский at northwestern university. despite my silly approach to showing off my work, i’m a disciplined and passionate person, who wants to create technology that makes change – or at least that makes people say “woah that’s cool”.
 
 last summer, i got to intern at duolingo and build a language learning app that teaches through music. my team of four shipped a karaoke experience that helps users practice listening skills, and it was especially awesome because i got to bring exposure to my culture by including portuguese. 
 
