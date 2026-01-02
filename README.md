@@ -4,9 +4,9 @@
 
 i’m a brazilian studying computer science, design, and русский at northwestern university. despite my silly approach to showing off my work, i’m a disciplined and passionate person, who wants to create technology that makes change – or at least that makes people say “woah that’s cool”.
 
-last summer, i got to intern at duolingo and build a language learning app that teaches through music. my team of four shipped a karaoke experience that helps users practice listening skills, and it was especially awesome because i got to bring exposure to my culture by including portuguese. 
+last summer, i got to intern at duolingo and build/shape a new exercise for English intermediate speakers on Android/iOS. i also refactored the entirety of daily refresh (what u see when u finish a course) for code sustainability. 
 
-currently, i’m running women in computing at northwestern, building a test-generation tool in the MU Collective Lab, and coding on the side whenever a random idea tickles my fancy. outside of work, i’m raising my son (a gray cat named loki who bites), cooking bad food for my girlfriend, and playing ps5 games like high on life (doom was too scary).
+currently, i’m running women in computing at northwestern, and coding on the side whenever a random idea tickles my fancy. outside of that, i’m raising my sons (a gray cat named loki who bites and a kitten named tony who isn't danny's imaginary friend), cooking bad food for my girlfriend, and playing ps5 games like rdr2 (doom was too scary).
 
 ### fun facts:
 - i saved a bat once
