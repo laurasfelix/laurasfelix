@@ -16,18 +16,6 @@ currently, i’m running women in computing at northwestern, and coding on the s
 - my dog is named koda but i've never watched brother bear
 - lines of code: 295,952
 
-<div align="center"> 
-  <p>fans count</p>
-  <img src="https://profile-counter.glitch.me/laurasfelix/count.svg" alt="Visitor's Count" />
-</div>
-
-<br>
-
-<div align=center>
-  <img width=390 src="https://github-readme-stats.vercel.app/api?username=laurasfelix&theme=transparent&count_private=true&show_icons=true&rank_icon=github&locale=en" alt="lauras's GitHub Stats" />
-</div>
-
-<hr>
 <!--
 **laurasfelix/laurasfelix** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
